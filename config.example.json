@@ -1,0 +1,16 @@
+{
+  "model_dir": "models",
+  "model_name": "mlp_model",
+  "hidden_layers": [64, 32],
+  "activation": "relu",
+  "optimizer": "adam",
+  "loss": "mse",
+  "epochs": 500,
+  "batch_size": 4,
+  "validation_split": 0.0,
+  "Vc_bounds": [80, 170],
+  "fn_bounds": [0.08, 0.17],
+  "optimization_method": "COBYLA",
+  "max_iterations": 5000
+}
+
